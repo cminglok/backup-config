@@ -1,0 +1,808 @@
+2025-01-23 08:14:31 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:14:31 INFO config.py:59: Created default config file at C:\Users\CMINGLOK\.config\yasb\config.yaml
+2025-01-23 08:14:31 INFO config.py:73: Created default stylesheet at C:\Users\CMINGLOK\.config\yasb\styles.css
+2025-01-23 08:14:32 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:14:32 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:14:32.430278
+2025-01-23 08:14:32 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:14:32 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:14:33 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:14:33.652401
+2025-01-23 08:14:33 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:14:33 INFO event_listener.py:52: Created named pipe yasb-1410d258-d962-11ef-86bd-c0470e650b51
+2025-01-23 08:14:33 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-1410d258-d962-11ef-86bd-c0470e650b51
+2025-01-23 08:14:34 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:14:34 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:14:34 DEBUG _windows.py:192: Thread started
+2025-01-23 08:14:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-1410d258-d962-11ef-86bd-c0470e650b51
+2025-01-23 08:17:26 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:17:26 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:17:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:17:26 DEBUG _windows.py:192: Thread started
+2025-01-23 08:18:28 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 08:19:01 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:19:01 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-23 08:19:08 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:19:08 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-23 08:19:14 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:19:14 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-23 08:20:31 ERROR config.py:103: The file 'C:\Users\CMINGLOK\.config\yasb\config.yaml' could not be read. Do you have read/write permissions?
+2025-01-23 08:20:45 ERROR main.py:72: Unhandled exception
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\bar_manager.py", line 41, in on_styles_modified
+  File "D:\a\yasb\yasb\src\core\config.py", line 107, in get_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 72, in get_stylesheet_path
+  File "C:\hostedtoolcache\windows\Python\3.12.8\x64\Lib\shutil.py", line 460, in copy2
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-01-23 08:21:12 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:21:13 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:21:13 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:21:13.210402
+2025-01-23 08:21:13 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:21:13 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:21:14 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:21:14.386402
+2025-01-23 08:21:14 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:21:14 INFO event_listener.py:52: Created named pipe yasb-02f95f70-d963-11ef-9d99-c0470e650b51
+2025-01-23 08:21:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-02f95f70-d963-11ef-9d99-c0470e650b51
+2025-01-23 08:21:14 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:21:14 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:21:14 DEBUG _windows.py:192: Thread started
+2025-01-23 08:21:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-02f95f70-d963-11ef-9d99-c0470e650b51
+2025-01-23 08:24:59 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:24:59 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:24:59 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:25:00 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:25:00 INFO event_listener.py:52: Created named pipe yasb-899a1874-d963-11ef-b6c5-c0470e650b51
+2025-01-23 08:25:00 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-899a1874-d963-11ef-b6c5-c0470e650b51
+2025-01-23 08:25:00 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:25:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:25:00 DEBUG _windows.py:192: Thread started
+2025-01-23 08:25:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-899a1874-d963-11ef-b6c5-c0470e650b51
+2025-01-23 08:25:48 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:25:48 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:25:48 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:25:49 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:25:50 INFO event_listener.py:52: Created named pipe yasb-a70b172e-d963-11ef-bf08-c0470e650b51
+2025-01-23 08:25:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a70b172e-d963-11ef-bf08-c0470e650b51
+2025-01-23 08:25:50 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:25:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:25:50 DEBUG _windows.py:192: Thread started
+2025-01-23 08:25:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-a70b172e-d963-11ef-bf08-c0470e650b51
+2025-01-23 08:27:58 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-23 08:27:58 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-23 08:28:03 INFO event_listener.py:52: Created named pipe yasb-a70b172e-d963-11ef-bf08-c0470e650b51
+2025-01-23 08:28:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a70b172e-d963-11ef-bf08-c0470e650b51
+2025-01-23 08:28:03 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-23 08:28:22 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:28:22 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:28:22 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:28:22.762455
+2025-01-23 08:28:22 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:28:22 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:28:23 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:28:23.765057
+2025-01-23 08:28:23 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:28:24 INFO event_listener.py:52: Created named pipe yasb-02db4ddd-d964-11ef-801d-c0470e650b51
+2025-01-23 08:28:24 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-02db4ddd-d964-11ef-801d-c0470e650b51
+2025-01-23 08:28:24 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:28:24 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:28:24 DEBUG _windows.py:192: Thread started
+2025-01-23 08:28:24 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-23 08:29:13 ERROR config.py:103: The file 'C:\Users\CMINGLOK\.config\yasb\config.yaml' could not be read. Do you have read/write permissions?
+2025-01-23 08:29:21 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 08:30:18 ERROR config.py:103: The file 'C:\Users\CMINGLOK\.config\yasb\config.yaml' could not be read. Do you have read/write permissions?
+2025-01-23 08:30:23 ERROR css_processor.py:20: CSSProcessor Error 'C:\Users\CMINGLOK\.config\yasb\styles.css': [Errno 13] Permission denied: 'C:\\Users\\CMINGLOK\\.config\\yasb\\styles.css'
+2025-01-23 08:31:04 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:31:04 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-23 08:31:20 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:31:21 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:31:21 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:31:21.254450
+2025-01-23 08:31:21 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:31:21 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:31:22 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:31:22.253647
+2025-01-23 08:31:22 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:31:22 INFO event_listener.py:52: Created named pipe yasb-6d3a39ac-d964-11ef-a295-c0470e650b51
+2025-01-23 08:31:22 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6d3a39ac-d964-11ef-a295-c0470e650b51
+2025-01-23 08:31:22 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:31:22 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:31:22 DEBUG _windows.py:192: Thread started
+2025-01-23 08:31:22 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-23 08:49:51 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:49:52 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:49:52 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:49:52.296240
+2025-01-23 08:49:52 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:49:52 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:49:53 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:49:53.287795
+2025-01-23 08:49:53 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:49:53 INFO event_listener.py:52: Created named pipe yasb-036d2f50-d967-11ef-9cc3-c0470e650b51
+2025-01-23 08:49:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-036d2f50-d967-11ef-9cc3-c0470e650b51
+2025-01-23 08:49:53 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 08:49:53 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 08:49:53 DEBUG _windows.py:192: Thread started
+2025-01-23 08:49:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-036d2f50-d967-11ef-9cc3-c0470e650b51
+2025-01-23 08:57:49 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 08:57:52 INFO log.py:21: Yasb v1.5.5
+2025-01-23 08:57:52 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 08:57:53 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:57:53.216504
+2025-01-23 08:57:53 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 08:57:53 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:57:54 WARNING widget_builder.py:35: Ignoring construction of invalid widget 'github'
+2025-01-23 08:57:54 INFO weather.py:360: Fetched new weather data at 2025-01-23 08:57:54.398501
+2025-01-23 08:57:54 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 08:57:54 ERROR widget_builder.py:88: Failed to validate widget(s) due to invalid options  - github
+      menu_height:
+      - unknown field
+      menu_offset:
+      - unknown field
+      menu_width:
+      - unknown field
+      
+2025-01-23 08:57:54 INFO event_listener.py:52: Created named pipe yasb-2235d1f1-d968-11ef-a790-c0470e650b51
+2025-01-23 08:57:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2235d1f1-d968-11ef-a790-c0470e650b51
+2025-01-23 08:57:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2235d1f1-d968-11ef-a790-c0470e650b51
+2025-01-23 09:02:24 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:02:24 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:02:24 DEBUG _windows.py:192: Thread started
+2025-01-23 09:02:46 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:02:46 INFO weather.py:360: Fetched new weather data at 2025-01-23 09:02:46.268464
+2025-01-23 09:02:46 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 09:02:46 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:02:46 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:02:47 INFO weather.py:360: Fetched new weather data at 2025-01-23 09:02:47.095850
+2025-01-23 09:02:47 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:02:47 INFO event_listener.py:52: Created named pipe yasb-d0a697c1-d968-11ef-bee2-c0470e650b51
+2025-01-23 09:02:47 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d0a697c1-d968-11ef-bee2-c0470e650b51
+2025-01-23 09:02:47 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:02:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:02:47 DEBUG _windows.py:192: Thread started
+2025-01-23 09:02:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d0a697c1-d968-11ef-bee2-c0470e650b51
+2025-01-23 09:05:32 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:05:32 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 09:05:32 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:05:32 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:05:33 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:05:33 INFO event_listener.py:52: Created named pipe yasb-33c8359d-d969-11ef-911d-c0470e650b51
+2025-01-23 09:05:33 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-33c8359d-d969-11ef-911d-c0470e650b51
+2025-01-23 09:05:33 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:05:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:05:33 DEBUG _windows.py:192: Thread started
+2025-01-23 09:05:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-33c8359d-d969-11ef-911d-c0470e650b51
+2025-01-23 09:05:49 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:05:50 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-23 09:05:50 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:05:50 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:05:50 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:05:51 INFO event_listener.py:52: Created named pipe yasb-3e24ecc9-d969-11ef-938d-c0470e650b51
+2025-01-23 09:05:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3e24ecc9-d969-11ef-938d-c0470e650b51
+2025-01-23 09:05:51 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:05:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:05:51 DEBUG _windows.py:192: Thread started
+2025-01-23 09:05:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3e24ecc9-d969-11ef-938d-c0470e650b51
+2025-01-23 09:06:52 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:06:52 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:06:52 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:06:53 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:06:53 INFO event_listener.py:52: Created named pipe yasb-6336e7c6-d969-11ef-b55b-c0470e650b51
+2025-01-23 09:06:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6336e7c6-d969-11ef-b55b-c0470e650b51
+2025-01-23 09:06:53 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:06:53 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:06:53 DEBUG _windows.py:192: Thread started
+2025-01-23 09:06:53 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6336e7c6-d969-11ef-b55b-c0470e650b51
+2025-01-23 09:07:06 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:07:06 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:07:06 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:07:07 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:07:07 INFO event_listener.py:52: Created named pipe yasb-6bd0b548-d969-11ef-812c-c0470e650b51
+2025-01-23 09:07:07 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6bd0b548-d969-11ef-812c-c0470e650b51
+2025-01-23 09:07:07 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:07:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:07:07 DEBUG _windows.py:192: Thread started
+2025-01-23 09:07:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6bd0b548-d969-11ef-812c-c0470e650b51
+2025-01-23 09:07:20 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:07:20 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:07:20 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:07:21 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:07:21 INFO event_listener.py:52: Created named pipe yasb-73ee8ce2-d969-11ef-8b4c-c0470e650b51
+2025-01-23 09:07:21 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-73ee8ce2-d969-11ef-8b4c-c0470e650b51
+2025-01-23 09:07:21 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:07:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:07:21 DEBUG _windows.py:192: Thread started
+2025-01-23 09:07:21 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-73ee8ce2-d969-11ef-8b4c-c0470e650b51
+2025-01-23 09:08:53 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:08:53 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:08:53 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:08:54 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:08:54 INFO event_listener.py:52: Created named pipe yasb-ab601391-d969-11ef-b321-c0470e650b51
+2025-01-23 09:08:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ab601391-d969-11ef-b321-c0470e650b51
+2025-01-23 09:08:54 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:08:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:08:54 DEBUG _windows.py:192: Thread started
+2025-01-23 09:08:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ab601391-d969-11ef-b321-c0470e650b51
+2025-01-23 09:09:10 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:09:10 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:09:10 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:09:10 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:09:11 INFO event_listener.py:52: Created named pipe yasb-b5634aaa-d969-11ef-a19a-c0470e650b51
+2025-01-23 09:09:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b5634aaa-d969-11ef-a19a-c0470e650b51
+2025-01-23 09:09:11 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:09:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:09:11 DEBUG _windows.py:192: Thread started
+2025-01-23 09:09:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b5634aaa-d969-11ef-a19a-c0470e650b51
+2025-01-23 09:11:01 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:11:01 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:11:01 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:02 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:02 INFO event_listener.py:52: Created named pipe yasb-f7d5ca97-d969-11ef-bce3-c0470e650b51
+2025-01-23 09:11:02 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f7d5ca97-d969-11ef-bce3-c0470e650b51
+2025-01-23 09:11:02 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:11:02 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:11:02 DEBUG _windows.py:192: Thread started
+2025-01-23 09:11:02 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f7d5ca97-d969-11ef-bce3-c0470e650b51
+2025-01-23 09:11:08 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:11:08 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:11:09 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:09 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:09 INFO event_listener.py:52: Created named pipe yasb-fc177786-d969-11ef-b002-c0470e650b51
+2025-01-23 09:11:09 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fc177786-d969-11ef-b002-c0470e650b51
+2025-01-23 09:11:09 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:11:09 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:11:09 DEBUG _windows.py:192: Thread started
+2025-01-23 09:11:10 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fc177786-d969-11ef-b002-c0470e650b51
+2025-01-23 09:11:29 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:11:29 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:11:29 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:30 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:30 INFO event_listener.py:52: Created named pipe yasb-085939e3-d96a-11ef-bd32-c0470e650b51
+2025-01-23 09:11:30 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-085939e3-d96a-11ef-bd32-c0470e650b51
+2025-01-23 09:11:30 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:11:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:11:30 DEBUG _windows.py:192: Thread started
+2025-01-23 09:11:30 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-085939e3-d96a-11ef-bd32-c0470e650b51
+2025-01-23 09:11:31 ERROR main.py:72: Unhandled exception
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 322, in _add_or_update_buttons
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 214, in _on_komorebi_connect_event
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 325, in _add_or_update_buttons
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 364, in _try_add_workspace_button
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 340, in _get_workspace_label
+KeyError: 'name'
+2025-01-23 09:11:50 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:11:50 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:11:50 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:50 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:11:51 INFO event_listener.py:52: Created named pipe yasb-14aea6de-d96a-11ef-bbe8-c0470e650b51
+2025-01-23 09:11:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-14aea6de-d96a-11ef-bbe8-c0470e650b51
+2025-01-23 09:11:51 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:11:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:11:51 DEBUG _windows.py:192: Thread started
+2025-01-23 09:11:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-14aea6de-d96a-11ef-bbe8-c0470e650b51
+2025-01-23 09:13:23 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:13:44 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:14:03 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:14:17 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:18:19 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:18:19 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:18:19 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:18:20 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:18:20 INFO event_listener.py:52: Created named pipe yasb-fce240d4-d96a-11ef-bfac-c0470e650b51
+2025-01-23 09:18:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fce240d4-d96a-11ef-bfac-c0470e650b51
+2025-01-23 09:18:20 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:18:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:18:20 DEBUG _windows.py:192: Thread started
+2025-01-23 09:18:20 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fce240d4-d96a-11ef-bfac-c0470e650b51
+2025-01-23 09:18:59 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:18:59 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:18:59 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:18:59 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:18:59 INFO event_listener.py:52: Created named pipe yasb-145b4653-d96b-11ef-80cd-c0470e650b51
+2025-01-23 09:18:59 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-145b4653-d96b-11ef-80cd-c0470e650b51
+2025-01-23 09:19:00 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:19:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:19:00 DEBUG _windows.py:192: Thread started
+2025-01-23 09:19:00 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-145b4653-d96b-11ef-80cd-c0470e650b51
+2025-01-23 09:19:00 ERROR main.py:72: Unhandled exception
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 322, in _add_or_update_buttons
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 214, in _on_komorebi_connect_event
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 325, in _add_or_update_buttons
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 364, in _try_add_workspace_button
+  File "D:\a\yasb\yasb\src\core\widgets\komorebi\workspaces.py", line 340, in _get_workspace_label
+KeyError: 'name'
+2025-01-23 09:19:39 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:19:39 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:19:39 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:19:40 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:19:40 INFO event_listener.py:52: Created named pipe yasb-2c9b7b2c-d96b-11ef-82e3-c0470e650b51
+2025-01-23 09:19:40 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2c9b7b2c-d96b-11ef-82e3-c0470e650b51
+2025-01-23 09:19:40 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:19:40 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:19:40 DEBUG _windows.py:192: Thread started
+2025-01-23 09:19:40 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2c9b7b2c-d96b-11ef-82e3-c0470e650b51
+2025-01-23 09:23:33 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:24:01 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:25:01 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:25:10 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:25:20 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:25:25 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:25:51 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:26:06 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:26:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:27:42 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:27:50 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:27:55 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:28:00 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:28:03 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:28:11 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:28:28 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:28:28 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:28:28 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:28:29 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:28:29 INFO event_listener.py:52: Created named pipe yasb-67caf1ff-d96c-11ef-9223-c0470e650b51
+2025-01-23 09:28:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-67caf1ff-d96c-11ef-9223-c0470e650b51
+2025-01-23 09:28:29 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:28:29 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:28:29 DEBUG _windows.py:192: Thread started
+2025-01-23 09:28:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-67caf1ff-d96c-11ef-9223-c0470e650b51
+2025-01-23 09:52:39 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:52:39 ERROR widget_builder.py:67: No type specified for widget 'komorebi_workspaces'
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\widget_builder.py", line 41, in _build_widget
+KeyError: 'type'
+2025-01-23 09:52:39 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:52:39 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:52:40 ERROR widget_builder.py:67: No type specified for widget 'komorebi_workspaces'
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\widget_builder.py", line 41, in _build_widget
+KeyError: 'type'
+2025-01-23 09:52:40 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:52:40 ERROR widget_builder.py:110: Failed to import widget(s) due to missing widget type(s)  - komorebi_workspaces
+2025-01-23 09:53:02 INFO log.py:21: Yasb v1.5.5
+2025-01-23 09:53:02 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-23 09:53:02 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:53:03 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 28px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-23 09:53:03 INFO event_listener.py:52: Created named pipe yasb-d679be64-d96f-11ef-8ec6-c0470e650b51
+2025-01-23 09:53:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d679be64-d96f-11ef-8ec6-c0470e650b51
+2025-01-23 09:53:03 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-23 09:53:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-23 09:53:03 DEBUG _windows.py:192: Thread started
+2025-01-23 09:53:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d679be64-d96f-11ef-8ec6-c0470e650b51
+2025-01-23 09:56:05 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:56:20 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:56:45 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-23 09:57:06 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-24 00:19:21 INFO log.py:21: Yasb v1.5.5
+2025-01-24 00:19:21 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-24 01:26:49 INFO log.py:21: Yasb v1.5.5
+2025-01-24 01:26:50 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:26:50.081789
+2025-01-24 01:26:50 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-24 01:26:50 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 01:26:50 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:26:51 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:26:51.138759
+2025-01-24 01:26:51 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:26:51 INFO event_listener.py:52: Created named pipe yasb-49a4a178-d9f2-11ef-8f8f-c0470e650b51
+2025-01-24 01:26:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-49a4a178-d9f2-11ef-8f8f-c0470e650b51
+2025-01-24 01:26:51 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 01:26:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 01:26:51 DEBUG _windows.py:192: Thread started
+2025-01-24 01:26:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-49a4a178-d9f2-11ef-8f8f-c0470e650b51
+2025-01-24 01:27:40 INFO log.py:21: Yasb v1.5.5
+2025-01-24 01:27:41 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:27:41.557923
+2025-01-24 01:27:41 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-24 01:27:41 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 01:27:41 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:27:42 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:27:42.569963
+2025-01-24 01:27:42 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:27:42 INFO event_listener.py:52: Created named pipe yasb-684cb2a3-d9f2-11ef-8f41-c0470e650b51
+2025-01-24 01:27:42 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-684cb2a3-d9f2-11ef-8f41-c0470e650b51
+2025-01-24 01:27:42 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 01:27:42 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 01:27:42 DEBUG _windows.py:192: Thread started
+2025-01-24 01:27:43 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-684cb2a3-d9f2-11ef-8f41-c0470e650b51
+2025-01-24 01:29:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-24 01:29:57 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-24 01:30:20 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-24 01:30:36 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-01-24 01:36:38 INFO log.py:21: Yasb v1.5.5
+2025-01-24 01:36:39 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:36:39.056770
+2025-01-24 01:36:39 DEBUG __init__.py:140: CoInitializeEx(None, 2)
+2025-01-24 01:36:39 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 01:36:39 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:36:39 INFO weather.py:360: Fetched new weather data at 2025-01-24 01:36:39.970130
+2025-01-24 01:36:39 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:36:40 INFO event_listener.py:52: Created named pipe yasb-a89e9793-d9f3-11ef-8216-c0470e650b51
+2025-01-24 01:36:40 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a89e9793-d9f3-11ef-8216-c0470e650b51
+2025-01-24 01:36:40 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 01:36:40 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 01:36:40 DEBUG _windows.py:192: Thread started
+2025-01-24 01:36:40 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-a89e9793-d9f3-11ef-8216-c0470e650b51
+2025-01-24 01:37:49 INFO log.py:21: Yasb v1.5.5
+2025-01-24 01:37:50 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 01:37:50 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:37:50 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:37:51 INFO event_listener.py:52: Created named pipe yasb-d2d36ead-d9f3-11ef-a912-c0470e650b51
+2025-01-24 01:37:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d2d36ead-d9f3-11ef-a912-c0470e650b51
+2025-01-24 01:37:51 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 01:37:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 01:37:51 DEBUG _windows.py:192: Thread started
+2025-01-24 01:37:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d2d36ead-d9f3-11ef-a912-c0470e650b51
+2025-01-24 01:41:46 INFO log.py:21: Yasb v1.5.5
+2025-01-24 01:41:47 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 01:41:47 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:41:48 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 01:41:48 INFO event_listener.py:52: Created named pipe yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 01:41:48 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 01:41:48 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 01:41:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 01:41:48 DEBUG _windows.py:192: Thread started
+2025-01-24 01:41:48 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 01:55:53 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 01:55:53 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 01:55:58 INFO event_listener.py:52: Created named pipe yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 01:55:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 01:55:58 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 01:56:09 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6052287f-d9f4-11ef-9ecb-c0470e650b51
+2025-01-24 02:04:50 INFO log.py:21: Yasb v1.5.5
+2025-01-24 02:04:50 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 02:04:51 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:04:51 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:04:52 INFO event_listener.py:52: Created named pipe yasb-990037d7-d9f7-11ef-b996-c0470e650b51
+2025-01-24 02:04:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-990037d7-d9f7-11ef-b996-c0470e650b51
+2025-01-24 02:04:52 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 02:04:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 02:04:52 DEBUG _windows.py:192: Thread started
+2025-01-24 02:04:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-990037d7-d9f7-11ef-b996-c0470e650b51
+2025-01-24 02:06:22 INFO log.py:21: Yasb v1.5.5
+2025-01-24 02:06:23 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 02:06:23 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:06:24 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:06:24 INFO event_listener.py:52: Created named pipe yasb-d0091eb3-d9f7-11ef-a0a0-c0470e650b51
+2025-01-24 02:06:24 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d0091eb3-d9f7-11ef-a0a0-c0470e650b51
+2025-01-24 02:06:24 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 02:06:24 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 02:06:24 DEBUG _windows.py:192: Thread started
+2025-01-24 02:06:24 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d0091eb3-d9f7-11ef-a0a0-c0470e650b51
+2025-01-24 02:38:33 INFO log.py:21: Yasb v1.5.5
+2025-01-24 02:38:34 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 02:38:34 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:38:34 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:38:35 INFO event_listener.py:52: Created named pipe yasb-4ef16177-d9fc-11ef-8a7d-c0470e650b51
+2025-01-24 02:38:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4ef16177-d9fc-11ef-8a7d-c0470e650b51
+2025-01-24 02:38:35 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 02:38:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 02:38:35 DEBUG _windows.py:192: Thread started
+2025-01-24 02:38:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4ef16177-d9fc-11ef-8a7d-c0470e650b51
+2025-01-24 02:38:52 INFO log.py:21: Yasb v1.5.5
+2025-01-24 02:38:52 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 02:38:52 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:38:53 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:38:53 INFO event_listener.py:52: Created named pipe yasb-59f60d89-d9fc-11ef-9a2e-c0470e650b51
+2025-01-24 02:38:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-59f60d89-d9fc-11ef-9a2e-c0470e650b51
+2025-01-24 02:38:53 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 02:38:53 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 02:38:53 DEBUG _windows.py:192: Thread started
+2025-01-24 02:38:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-59f60d89-d9fc-11ef-9a2e-c0470e650b51
+2025-01-24 02:39:08 INFO log.py:21: Yasb v1.5.5
+2025-01-24 02:39:09 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 02:39:09 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:39:10 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 02:39:10 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 02:39:10 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 02:39:10 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 02:39:10 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 02:39:10 DEBUG _windows.py:192: Thread started
+2025-01-24 02:39:10 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:29:06 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:29:06 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:29:11 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:29:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:29:11 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 03:29:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:41:47 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:41:47 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:41:52 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:41:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:41:53 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 03:42:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:44:48 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:44:48 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:44:53 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:44:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:44:53 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 03:45:04 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:48:00 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:48:00 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:48:05 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:48:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:48:05 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 03:48:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:50:49 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:50:49 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:50:54 INFO event_listener.py:52: Created named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:50:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:50:54 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 03:51:04 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63f789e9-d9fc-11ef-ab6a-c0470e650b51
+2025-01-24 03:54:38 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 03:54:38 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 03:57:22 INFO log.py:21: Yasb v1.5.5
+2025-01-24 03:57:23 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 03:57:23 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 03:57:25 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 03:57:25 INFO event_listener.py:52: Created named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 03:57:25 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 03:57:25 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 03:57:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 03:57:25 DEBUG _windows.py:192: Thread started
+2025-01-24 03:57:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 11:58:41 INFO log.py:21: Yasb v1.5.5
+2025-01-24 11:58:41 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-24 04:00:41 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 04:00:41 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 04:00:46 INFO event_listener.py:52: Created named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 04:00:46 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 04:00:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 05:32:58 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 05:32:58 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 05:33:03 INFO event_listener.py:52: Created named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 05:33:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 05:33:03 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 05:33:13 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-52522edd-da07-11ef-ae8b-4438e8fd8ac6
+2025-01-24 05:35:40 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 05:35:40 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 05:38:24 INFO log.py:21: Yasb v1.5.5
+2025-01-24 05:38:25 DEBUG utils.py:53: Found a TZ environment: Asia/Singapore
+2025-01-24 05:38:25 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 05:38:27 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 05:38:28 INFO event_listener.py:52: Created named pipe yasb-70046b80-da15-11ef-84dc-4438e8fd8ac6
+2025-01-24 05:38:28 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-70046b80-da15-11ef-84dc-4438e8fd8ac6
+2025-01-24 05:38:28 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 05:38:28 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 05:38:28 DEBUG _windows.py:192: Thread started
+2025-01-24 05:38:28 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-70046b80-da15-11ef-84dc-4438e8fd8ac6
+2025-01-24 13:38:32 INFO log.py:21: Yasb v1.5.5
+2025-01-24 13:38:32 ERROR main.py:82: Another instance of the YASB is already running.
+2025-01-24 05:55:45 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 05:55:45 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 14:01:12 INFO log.py:21: Yasb v1.5.5
+2025-01-24 14:01:13 DEBUG win32.py:58: Looking up time zone info from registry
+2025-01-24 14:01:13 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 14:01:15 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 14:01:16 INFO event_listener.py:52: Created named pipe yasb-9f3b0b3d-da18-11ef-a705-4438e8fd8ac6
+2025-01-24 14:01:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9f3b0b3d-da18-11ef-a705-4438e8fd8ac6
+2025-01-24 14:01:16 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 14:01:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 14:01:16 DEBUG _windows.py:192: Thread started
+2025-01-24 14:01:16 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-9f3b0b3d-da18-11ef-a705-4438e8fd8ac6
+2025-01-24 15:53:03 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 15:53:03 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 15:53:08 INFO event_listener.py:52: Created named pipe yasb-9f3b0b3d-da18-11ef-a705-4438e8fd8ac6
+2025-01-24 15:53:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9f3b0b3d-da18-11ef-a705-4438e8fd8ac6
+2025-01-24 15:53:09 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 15:59:24 INFO log.py:21: Yasb v1.5.5
+2025-01-24 15:59:25 DEBUG win32.py:58: Looking up time zone info from registry
+2025-01-24 15:59:25 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 15:59:26 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-24 15:59:27 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-24 15:59:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-24 15:59:27 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-24 15:59:27 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-24 15:59:27 DEBUG _windows.py:192: Thread started
+2025-01-24 15:59:27 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 16:01:10 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-24 17:01:15 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-24 17:01:15 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-24 17:01:20 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-24 17:01:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-24 17:01:20 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-24 17:01:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:14:26 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 09:14:26 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 09:14:31 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:14:31 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:14:31 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-27 09:14:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:26:14 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 09:26:14 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 09:26:19 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:26:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:26:19 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-27 09:27:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:27:02 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:05 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:08 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:12 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:15 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:18 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:21 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:25 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:28 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:31 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:34 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:38 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:41 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:44 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:48 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:51 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:54 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:27:57 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:01 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:04 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:07 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:11 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:14 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:17 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:21 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:24 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:27 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:30 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:34 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:37 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:40 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:44 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:47 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:50 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:54 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:28:57 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:00 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:03 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:07 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:10 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:13 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:17 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:20 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:23 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:26 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:30 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:33 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:36 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:40 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:43 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:46 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:50 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:53 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:29:57 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:00 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:02 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:05 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:07 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:10 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:12 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:14 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:17 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:19 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:21 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:23 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:26 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:28 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:30 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:32 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:35 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:37 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:39 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:42 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:44 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-01-27 09:30:46 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 09:30:46 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 09:30:51 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:30:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:30:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:45:56 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 09:45:56 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 09:46:01 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:46:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 09:46:01 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-27 09:46:12 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:06:17 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 10:06:17 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 10:06:22 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:06:22 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:06:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:07:22 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 10:07:22 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 10:07:27 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:07:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 10:07:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:05:08 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 11:05:08 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 11:05:13 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:05:13 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:05:14 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-27 11:06:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:54:41 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 11:54:41 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 11:54:46 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:54:46 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 11:54:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 13:57:53 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 13:57:53 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 13:57:58 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 13:57:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 13:57:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:12:48 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 15:12:48 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 15:12:53 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:12:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:12:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:22:23 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 15:22:23 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 15:22:28 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:22:28 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:22:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:23:16 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 15:23:16 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 15:23:21 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:23:21 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:23:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:39:29 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 15:39:29 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 15:39:34 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:39:34 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:39:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:49:52 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 15:49:52 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 15:49:57 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:49:57 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 15:49:57 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 16:08:22 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 16:08:22 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 16:08:27 INFO event_listener.py:52: Created named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 16:08:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 16:08:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-21f5545a-da29-11ef-99fb-4438e8fd8ac6
+2025-01-27 16:23:03 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 16:23:03 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 16:26:15 INFO log.py:21: Yasb v1.5.5
+2025-01-27 16:26:16 DEBUG win32.py:58: Looking up time zone info from registry
+2025-01-27 16:26:16 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 16:26:17 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 16:26:18 INFO event_listener.py:52: Created named pipe yasb-613f9398-dc88-11ef-81d1-c0470e650b51
+2025-01-27 16:26:18 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-613f9398-dc88-11ef-81d1-c0470e650b51
+2025-01-27 16:26:18 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-27 16:26:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-27 16:26:18 DEBUG _windows.py:192: Thread started
+2025-01-27 16:26:18 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-613f9398-dc88-11ef-81d1-c0470e650b51
+2025-01-27 16:40:14 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 16:40:14 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 16:40:19 INFO event_listener.py:52: Created named pipe yasb-613f9398-dc88-11ef-81d1-c0470e650b51
+2025-01-27 16:40:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-613f9398-dc88-11ef-81d1-c0470e650b51
+2025-01-27 16:40:19 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-01-27 17:03:25 INFO log.py:21: Yasb v1.5.5
+2025-01-27 17:03:26 DEBUG win32.py:58: Looking up time zone info from registry
+2025-01-27 17:03:26 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 17:03:28 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 17:03:29 INFO event_listener.py:52: Created named pipe yasb-93147d96-dc8d-11ef-9750-c0470e650b51
+2025-01-27 17:03:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-93147d96-dc8d-11ef-9750-c0470e650b51
+2025-01-27 17:03:29 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-27 17:03:29 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-27 17:03:29 DEBUG _windows.py:192: Thread started
+2025-01-27 17:03:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-93147d96-dc8d-11ef-9750-c0470e650b51
+2025-01-27 17:10:53 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 17:10:53 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 17:16:06 INFO log.py:21: Yasb v1.5.5
+2025-01-27 17:16:07 DEBUG win32.py:58: Looking up time zone info from registry
+2025-01-27 17:16:07 INFO app_bar.py:103: Bar Created on Screen: HP E243 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 17:16:08 INFO app_bar.py:103: Bar Created on Screen: HP E233 [Bar Height: 32px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-01-27 17:16:09 INFO event_listener.py:52: Created named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-27 17:16:09 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-27 17:16:09 INFO watcher.py:39: Created file watcher for path C:\Users\CMINGLOK\.config\yasb
+2025-01-27 17:16:09 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-01-27 17:16:09 DEBUG _windows.py:192: Thread started
+2025-01-27 17:16:09 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-27 17:18:11 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-27 17:18:11 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-27 17:18:16 INFO event_listener.py:52: Created named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-27 17:18:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-27 17:18:16 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 08:08:23 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-28 08:08:23 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-28 08:08:28 INFO event_listener.py:52: Created named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 08:08:28 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 08:08:28 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 09:15:09 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-01-28 09:15:09 INFO event_listener.py:93: Attempting to reconnect...
+2025-01-28 09:15:14 INFO event_listener.py:52: Created named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 09:15:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6
+2025-01-28 09:15:14 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-58353f18-dc8f-11ef-82c8-4438e8fd8ac6

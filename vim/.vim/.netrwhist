@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/cygdrive/n/Dwelling/Tony_new/Tony/4_CTO_Program/3_Hybrid/2_tag/14_Hybrid_Hendrix/Code/Test_Modules'
+let g:netrw_dirhist_4='/cygdrive/n/Dwelling/Tony_new/Tony/4_CTO_Program/3_Hybrid/2_tag/14_Hybrid_Hendrix/Code'
+let g:netrw_dirhist_3='/cygdrive/n/Dwelling/Tony_new/Tony/4_CTO_Program/3_Hybrid/2_tag/14_Hybrid_Hendrix'
+let g:netrw_dirhist_2='//mpt3hvm-0003/c$/test_program/rack0/primitive0/DUT0/xlrd'
+let g:netrw_dirhist_1='/usr/libexec/mc'
