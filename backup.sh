@@ -1,7 +1,8 @@
 #! /usr/bin/bash
 cp ../.bashrc cygwin/
 cp ../.bash_aliases cygwin/
-cp /cygdrive/c/Users/CMINGLOK/komorebi* komorebi/
+cp /cygdrive/c/Users/CMINGLOK/komorebi.json komorebi/
+cp /cygdrive/c/Users/CMINGLOK/komorebi.bar.json komorebi/
 cp -r /cygdrive/c/Users/CMINGLOK/.config komorebi/
 cp ../.vimrc vim
 cp -r ../.vim vim

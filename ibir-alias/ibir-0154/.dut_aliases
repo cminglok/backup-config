@@ -1,0 +1,61 @@
+# a bash function that change directory to 
+# the respective dut's workspace
+# param 1: primitive(p0/p1/p2/p3)
+# param 2: dut(1-64)
+function dcd() {
+    # Check if the correct number of arguments is provided
+    if [ "$#" -ne 2 ]; then
+        echo "Usage: dcd <primitive> <dut>"
+        return 1
+    fi
+
+    # Map primitives to their respective directories and config files
+    declare -A primitive_map
+    primitive_map[p0]="ANSKR19505608034000 IBIR_58043_32.cfg"
+    primitive_map[p1]="ANSKR20215608077000 IBIR_57605_32.cfg"
+    primitive_map[p2]="ANSKR20215608075000 IBIR_59425_32.cfg"
+    primitive_map[p3]="ANSKR20215608074900 IBIR_58043_32.cfg"
+
+    # Assign arguments to variables
+    base_dir=$(pwd | sed 's|\(.*c\$\).*|\1|')
+    conf_dir="${base_dir}/Program Files (x86)/DNA2"
+    workspace="${base_dir}/Tanisys/DNA2/User/Workspace"
+    primitive=$1
+    dut=$2
+
+    # Get the directory and config file for the given primitive
+    primitive_info=${primitive_map[$primitive]}
+    if [ -z "$primitive_info" ]; then
+        echo "Invalid primitive: $primitive"
+        return 1
+    fi
+
+    # Split the primitive info into directory and config file
+    dir=$(echo $primitive_info | awk '{print $1}')
+    config_file=$conf_dir/$(echo $primitive_info | awk '{print $2}')
+    echo $config_file
+
+    # Read the config file to find the DUT information
+    dut_info=$(awk -v dut="$dut" '$3 == dut {print $4}' "$config_file")
+    if [ -z "$dut_info" ]; then
+        echo "DUT $dut not found in $config_file"
+        return 1
+    fi
+    echo $dut_info
+
+    # Extract the slot, and site from the DUT info
+    slot=$(echo $dut_info | sed -n 's/.*S\([0-9]\{1,\}\)-.*/\1/p')
+    site=$(echo $dut_info | sed -n 's/B[0-9]S[0-9]-\([0-9]\)/\1/p')
+
+    echo "slot: $slot, site: $site"
+    # Decrement the site by 1
+    site=$((site - 1))
+
+    # Construct the target directory path
+    target_dir="${workspace}/${dir}-${slot}-${site}"
+
+    # Change to the target directory
+    cd $target_dir || { echo "Failed to change directory to $target_dir"; return 1; }
+
+    echo "Changed directory to $target_dir"
+}
