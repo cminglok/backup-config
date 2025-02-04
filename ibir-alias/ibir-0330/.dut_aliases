@@ -43,10 +43,10 @@ function dcd() {
     fi
 
     # Extract the slot, and site from the DUT info
-    slot=$(echo $dut_info | sed -n 's/.*S\([0-9]\{1,\}\)-.*/\1/p')
-    site=$(echo $dut_info | sed -n 's/B[0-9]S[0-9]-\([0-9]\)/\1/p')
-    echo $dut_info
+    slot=$(echo $dut_info | sed -n 's/B[0-9]S\([0-9]\)-[0-9]\{1,2\}/\1/p')
+    site=$(echo $dut_info | sed -n 's/B[0-9]S[0-9]-\([0-9]\{1,2\}\)/\1/p')
 
+    echo $dut_info
     echo "slot: $slot, site: $site"
     # Decrement the site by 1
     site=$((site - 1))

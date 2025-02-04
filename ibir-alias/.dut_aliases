@@ -1,0 +1,112 @@
+# a bash function that change directory to 
+# the respective dut's workspace
+# param 1: primitive(0/1/2/3/...)
+# param 2: dut(1-64)
+#
+base_dir=$(pwd | sed 's|\(.*c\$\).*|\1|')
+# echo $base_dir
+
+# formatting for powershell path
+pw_base_dir=$(echo $base_dir | sed 's|/mnt/|\\\\|; s|/|\\\\|g')
+# echo $pw_base_dir
+
+# Define the TCS log directory
+tcs_log_dir="${base_dir}/Tanisys/ApplicationData/TCS/Log"
+pw_tcs_log_dir="${pw_base_dir}\\Tanisys\\ApplicationData\\TCS\\Log"
+# echo $tcs_log_dir
+
+# Use PowerShell to find the latest log file
+# ls and find in UNC path are slow
+pw_latest_log=$(powershell.exe -Command "Get-ChildItem '${pw_tcs_log_dir}\\*.log' | Sort-Object LastWriteTime -Descending | Select-Object -First 1 | ForEach-Object { \$_.FullName }")
+latest_log_file="${pw_latest_log##*\\}"
+latest_log_file=$(echo "$latest_log_file" | tr -d '\r')
+
+export latest_log="${tcs_log_dir}/${latest_log_file}"
+echo "Latest log file: $latest_log"
+
+xml_file_path="${base_dir}/Tanisys/ApplicationData/SystemConfig/SystemConfig.xml"
+
+# Extract chassis IDs from the XML file
+chassis_ids=$(grep -oP '<chassis[^>]*id="[^"]*' "$xml_file_path" | grep -oP 'id="[^"]*' | cut -d'"' -f2)
+
+# Convert chassis IDs to an array
+chassis_ids_array=($chassis_ids)
+
+# Declare the associative array
+declare -A primitive_map
+# Populate the primitive_map
+for i in "${!chassis_ids_array[@]}"; do
+  chassis_id="${chassis_ids_array[$i]}"
+
+  # Find the latest log file
+  config_line=$(grep -a "$chassis_id" "$latest_log" | grep -a "Use Hifix" | head -n 1)
+
+  # Extract the Hifix config file from the line
+  if [[ $config_line =~ Use\ Hifix:\ (.*)\ for\ Blade:\ $chassis_id ]]; then
+    hifix_config_file=$(echo "${BASH_REMATCH[1]}" | awk -F'\\' '{print $NF}')
+    primitive_map["p$i"]="$chassis_id $hifix_config_file"
+    echo "p$i: $chassis_id $hifix_config_file"
+  else
+    echo "No matching line found for Chassis ID: $chassis_id in the latest log."
+  fi
+done
+
+# echo "for"
+# for key in "${!primitive_map[@]}"; do
+#   echo "$key: ${primitive_map[$key]}"
+# done
+#
+
+echo "Usage: dcd [primitive: p0/p1/p2/...] [dut: 1-64]"
+
+function dcd() {
+    # Check if the correct number of arguments is provided
+    if [ "$#" -ne 2 ]; then
+        echo "Usage: dcd <primitive> <dut>"
+        return 1
+    fi
+
+
+    # Assign arguments to variables
+    conf_dir="${base_dir}/Program Files (x86)/DNA2"
+    workspace="${base_dir}/Tanisys/DNA2/User/Workspace"
+    primitive=$1
+    dut=$2
+
+
+    # Get the directory and config file for the given primitive
+    primitive_info=${primitive_map[$primitive]}
+    if [ -z "$primitive_info" ]; then
+        echo "Invalid primitive: $primitive"
+        return 1
+    fi
+
+    # Split the primitive info into directory and config file
+    dir=$(echo $primitive_info | awk '{print $1}')
+    config_file=$conf_dir/$(echo $primitive_info | awk '{print $2}')
+    echo $config_file
+
+    # Read the config file to find the DUT information
+    dut_info=$(awk -v dut="$dut" '$3 == dut {print $4}' "$config_file")
+    if [ -z "$dut_info" ]; then
+        echo "DUT $dut not found in $config_file"
+        return 1
+    fi
+
+    # Extract the slot, and site from the DUT info
+    slot=$(echo $dut_info | sed -n 's/.*B[0-9]S\([0-9]\)-[0-9]\{1,2\}/\1/p')
+    site=$(echo $dut_info | sed -n 's/.*B[0-9]S[0-9]-\([0-9]\{1,2\}\)/\1/p')
+    echo $dut_info
+
+    echo "slot: $slot, site: $site"
+    # Decrement the site by 1
+    site=$((site - 1))
+
+    # Construct the target directory path
+    target_dir="${workspace}/${dir}-${slot}-${site}"
+
+    # Change to the target directory
+    cd $target_dir || { echo "Failed to change directory to $target_dir"; return 1; }
+
+    echo "Changed directory to $target_dir"
+}
